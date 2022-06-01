@@ -1,0 +1,170 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: cursive;
+    color: #E3FDFD;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+    border-bottom: 1px solid #E3FDFD;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;  
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .TShop {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: black;
+}
+
+h2 {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px
+}
+
+a.tbl-biru {
+    background: #71C9CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #CBF1F5;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #CBF1F5;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #71C9CE;
+    text-decoration: none;
+}
+
+a.tbl-merah {
+    background: blue;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 5px 10px 5px 10px;
+    color: #E3FDFD;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: aqua;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.staff-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-staff {
+    width: 20%;
+    margin: 0 auto;
+} 
+.gambar-staff img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.gambar-staff p {
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 25px;
+}
